@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "val_fraction": 0.1,
+  "raw_train_rows": 15186,
+  "raw_test_rows": 3797,
+  "clean_train": {
+    "initial": 15186,
+    "dropped_garbage": 2234,
+    "dropped_short": 1278,
+    "dropped_dup_url": 194,
+    "dropped_dup_content": 66,
+    "non_english": 4342,
+    "non_english_share": 0.3804,
+    "kept": 7072
+  },
+  "clean_test": {
+    "initial": 3797,
+    "dropped_garbage": 508,
+    "dropped_short": 314,
+    "dropped_dup_url": 14,
+    "dropped_dup_content": 9,
+    "non_english": 1130,
+    "non_english_share": 0.3828,
+    "kept": 1822
+  },
+  "train_test_url_overlap_removed": 35,
+  "leakage": 0,
+  "num_classes": 25,
+  "split_sizes": {
+    "train": 6333,
+    "val": 704,
+    "test": 1822
+  }
+}

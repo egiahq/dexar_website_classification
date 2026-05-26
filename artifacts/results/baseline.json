@@ -1,0 +1,6 @@
+{
+  "model": "tfidf_linearsvc",
+  "val_macro_f1": 0.48162773898944317,
+  "test_macro_f1": 0.47277779981442686,
+  "test_accuracy": 0.5329308452250274
+}

@@ -1,0 +1,176 @@
+{
+  "model": "modernbert",
+  "config": {
+    "max_length": 1024,
+    "lr": 5e-05,
+    "pooling": "cls",
+    "use_class_weights": true,
+    "freeze": "full"
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "test_macro_f1_seeds": [
+    0.5122822781686364,
+    0.5051512277939437,
+    0.5030764707937656
+  ],
+  "test_macro_f1": 0.5068366589187819,
+  "test_macro_f1_std": 0.003942692050975336,
+  "test_accuracy": 0.5614709110867179,
+  "test_accuracy_std": 0.006692038477194262,
+  "per_class": {
+    "Adult": {
+      "precision": 1.0,
+      "recall": 0.1,
+      "f1": 0.18181818181818182,
+      "support": 20
+    },
+    "Arts_and_Entertainment": {
+      "precision": 0.17567567567567569,
+      "recall": 0.325,
+      "f1": 0.22807017543859648,
+      "support": 40
+    },
+    "Autos_and_Vehicles": {
+      "precision": 0.7,
+      "recall": 0.6494845360824743,
+      "f1": 0.6737967914438503,
+      "support": 97
+    },
+    "Beauty_and_Fitness": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5869565217391305,
+      "f1": 0.6242774566473989,
+      "support": 92
+    },
+    "Books_and_Literature": {
+      "precision": 0.651685393258427,
+      "recall": 0.5523809523809524,
+      "f1": 0.5979381443298969,
+      "support": 105
+    },
+    "Business_and_Industry": {
+      "precision": 0.45714285714285713,
+      "recall": 0.3902439024390244,
+      "f1": 0.42105263157894735,
+      "support": 82
+    },
+    "Career_and_Education": {
+      "precision": 0.27848101265822783,
+      "recall": 0.4782608695652174,
+      "f1": 0.352,
+      "support": 46
+    },
+    "Computer_and_Electronics": {
+      "precision": 0.4782608695652174,
+      "recall": 0.4925373134328358,
+      "f1": 0.4852941176470588,
+      "support": 67
+    },
+    "Finance": {
+      "precision": 0.6901408450704225,
+      "recall": 0.7903225806451613,
+      "f1": 0.7368421052631579,
+      "support": 62
+    },
+    "Food_and_Drink": {
+      "precision": 0.8899082568807339,
+      "recall": 0.6381578947368421,
+      "f1": 0.7432950191570882,
+      "support": 152
+    },
+    "Gambling": {
+      "precision": 0.5753424657534246,
+      "recall": 0.7636363636363637,
+      "f1": 0.65625,
+      "support": 55
+    },
+    "Games": {
+      "precision": 0.6136363636363636,
+      "recall": 0.574468085106383,
+      "f1": 0.5934065934065934,
+      "support": 47
+    },
+    "Health": {
+      "precision": 0.7533333333333333,
+      "recall": 0.6848484848484848,
+      "f1": 0.7174603174603175,
+      "support": 165
+    },
+    "Home_and_Garden": {
+      "precision": 0.21052631578947367,
+      "recall": 0.26666666666666666,
+      "f1": 0.23529411764705882,
+      "support": 15
+    },
+    "Internet_and_Telecom": {
+      "precision": 0.32051282051282054,
+      "recall": 0.32051282051282054,
+      "f1": 0.32051282051282054,
+      "support": 78
+    },
+    "Law_and_Government": {
+      "precision": 0.71,
+      "recall": 0.5819672131147541,
+      "f1": 0.6396396396396397,
+      "support": 122
+    },
+    "News_and_Media": {
+      "precision": 0.17543859649122806,
+      "recall": 0.15873015873015872,
+      "f1": 0.16666666666666666,
+      "support": 63
+    },
+    "People_and_Society": {
+      "precision": 0.5204081632653061,
+      "recall": 0.51,
+      "f1": 0.5151515151515151,
+      "support": 100
+    },
+    "Pets_and_Animals": {
+      "precision": 0.5757575757575758,
+      "recall": 0.8260869565217391,
+      "f1": 0.6785714285714286,
+      "support": 23
+    },
+    "Recreation_and_Hobbies": {
+      "precision": 0.36538461538461536,
+      "recall": 0.5,
+      "f1": 0.4222222222222222,
+      "support": 38
+    },
+    "Reference": {
+      "precision": 0.7171717171717171,
+      "recall": 0.6893203883495146,
+      "f1": 0.7029702970297029,
+      "support": 103
+    },
+    "Science": {
+      "precision": 0.43956043956043955,
+      "recall": 0.5970149253731343,
+      "f1": 0.5063291139240507,
+      "support": 67
+    },
+    "Shopping": {
+      "precision": 0.32894736842105265,
+      "recall": 0.4807692307692308,
+      "f1": 0.390625,
+      "support": 52
+    },
+    "Sports": {
+      "precision": 0.6835443037974683,
+      "recall": 0.5934065934065934,
+      "f1": 0.6352941176470588,
+      "support": 91
+    },
+    "Travel": {
+      "precision": 0.5897435897435898,
+      "recall": 0.575,
+      "f1": 0.5822784810126582,
+      "support": 40
+    }
+  }
+}
